@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Prints all posible combinations
+ * main - Prints all combinations
  *
- * Return: Always 0
+ * Return: always 0
  */
 int main(void)
 {
@@ -14,8 +14,10 @@ int main(void)
 		putchar(i + '0');
 		if (i != 9)
 			continue;
-		putchar(',');
-		putchar(' ');
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
