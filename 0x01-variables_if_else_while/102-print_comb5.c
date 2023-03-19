@@ -22,7 +22,6 @@ int main(void)
 			if (i != 10 && j != 10)
 			{
 				putchar(',');
-				putchar(' ');
 			}
 		}
 	}
