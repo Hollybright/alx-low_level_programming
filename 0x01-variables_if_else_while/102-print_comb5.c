@@ -20,9 +20,8 @@ int main(void)
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
 			if (i != 10 && j != 10)
-			{
-				putchar(',');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
