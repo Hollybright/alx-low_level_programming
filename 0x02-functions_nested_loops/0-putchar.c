@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * Main - Main function
- * _putchar: Print the alphabets putchar
+ * main - main function
+ * _putchar: print alphbets _putchar
  * Return: Always 0
  */
 
 int main(void)
 {
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
