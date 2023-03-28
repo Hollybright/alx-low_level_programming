@@ -2,27 +2,24 @@
 
 /**
  * char *_strcpy - a function that copies the string pointed to by src
- * @dest: copy from data
- * @src: copy from data
- * Retun: string
+ * @dest: copy to
+ * @src: copy from
+ * Return: string
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int I = 0;
+	int l = 0;
+	int x = 0;
 
-	int X = 0;
-
-
-	while (*(src + I) != '\0')
+	while (*(src + l) != '\0')
 	{
-		I++;
+		l++;
 	}
-	for ( ; X < I ; X++)
+	for ( ; x < l ; x++)
 	{
-		dest[X] = src[X];
+	dest[x] = src[x];
 	}
-	dest[I] = '\0';
-
+	dest[l] = '\0';
 	return (dest);
 }
