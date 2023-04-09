@@ -3,19 +3,18 @@
 
 /**
  * main - prints all argument
- *
+ * @argc: argument numbers
+ * @argv: argument array
  * Return: always 0
  */
 
 int main(int argc, char *argv[])
 {
 	int b;
-	printf("argc = %d\n", argc);
-	
-	for (b < argc; b++)
+
+	for (b = 0; b < argc; b++)
 	{
-		/*Ignore argv*/
-		printf("%i\n");
+		printf("%s\n", argv[b]);
 	}
 	return (0);
 }
