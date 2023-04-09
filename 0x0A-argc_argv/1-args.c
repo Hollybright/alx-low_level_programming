@@ -3,6 +3,8 @@
 
 /**
  * main - print the name
+ * @argc: number of argument
+ * @argv: array
  *
  * Return: always 0
  */
