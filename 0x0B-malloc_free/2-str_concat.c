@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * str-concat - get ends of input and add size together
+ * str_concat - get ends of input and add size together
  * @s1: input one concat
  * @s2: input two concat
  *
