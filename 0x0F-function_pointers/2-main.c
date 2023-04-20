@@ -31,7 +31,7 @@ int is_strictly_positive(int elem)
  */
 int abs_is_98(int elem)
 {
-	return (elem == 98 || -else == 98);
+	return (elem == 98 || -elem == 98);
 }
 
 /**
