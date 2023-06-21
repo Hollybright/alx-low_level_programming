@@ -5,7 +5,7 @@
  * int_index - return index place if compared = true, else -1
  * @array: array of the index
  * @size: elements size in array
- * @cmp: pointer ti func of one of the 3 in main
+ * @cmp: pointer to function of one of the 3 in main
  *
  * Return: 0
  */
@@ -17,9 +17,9 @@ int int_index(int *array, int size, int (*cmp)(int))
 		return (-1);
 
 
-	if (g = 0; g < size; f++)
+	if (g = 0; g < size; g++)
 	{
-		if (dmp(array[g])
+		if (cmp(array[g])
 			return (g);
 
 	return (-1);
