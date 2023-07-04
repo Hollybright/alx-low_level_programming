@@ -3,22 +3,6 @@
 #include <string.h>
 
 /**
- * _strlen - returns function
- * @s: character s
- * Return: i value
- */
-int _strlen(const char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
-/**
  * add_node - adds new node to linked list at the beginning
  * @head: double pointer to the list_list
  * str: new string to add
@@ -35,12 +19,11 @@ list_t *add_node(list_t **head, const char *str)
 		len++;
 
 	light = malloc(sizeof(list_t));
-	if (light == NULL)
+	if (light!)
 		return (NULL);
 
-	light->str = strdup(str);
-
-	light->len = _strlen(str);
+	light->len = _strdup(str);
+	light->len = len;
 	light->next = (*head);
 	(*head) = light;
 
